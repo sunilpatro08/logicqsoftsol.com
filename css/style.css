@@ -1607,6 +1607,7 @@ input[type="submit"] {
 
 .tp-caption.dark_font_color {
 	color: #444;
+	font-weight: bolder;
 }
 
 .tp-caption.black_font_color {
@@ -1638,6 +1639,96 @@ input[type="submit"] {
 	color: #fff;
 	padding: 6px 12px;
 	border-radius: 3px;
+}
+
+.positions-list {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.positions .positions-list .it.sh {
+    display: block;
+}
+
+.positions .positions-list .it {
+    display: none;
+    float: left;
+    position: relative;
+    width: 31.3%;
+    height: 132px;
+    margin: 0 1% 2%;
+    padding: 20px;
+    color: #008dd1;
+    background-color: #c2d8ed;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,.05);
+    -moz-box-shadow: 0 0 4px 0 rgba(0,0,0,.05);
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.05);
+}
+
+.positions-list .it {
+    width: 31.6%;
+    height: 135px;
+    max-width: 390px;
+    margin: 0 2.5% 2.5% 0;
+    padding: 20px 30px 20px 25px;
+    line-height: 95px;
+    border-left: 5px solid #2D8FE2;
+}
+
+.positions-list .it .middle-position {
+    display: inline-block;
+    line-height: .8;
+    vertical-align: middle;
+}
+
+.positions-list .it .middle-position .name {
+    margin: 0 0 5px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #344D62;
+}
+
+.positions-list .it .middle-position .location {
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #7E91A2;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
+
+.location i {
+    float: left;
+    margin-right: 10px;
+}
+
+.hover-light:hover {
+    -webkit-box-shadow: 0 7.5px 7.5px 0 rgba(0,0,0,.05)!important;
+    -moz-box-shadow: 0 7.5px 7.5px 0 rgba(0,0,0,.05)!important;
+    box-shadow: 0 7.5px 7.5px 0 rgba(0,0,0,.05)!important;
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.transition01 {
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
 }
 
 
